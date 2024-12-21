@@ -8,11 +8,11 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <BrowserRouter basename="/react-pizza-app/">
+  
    
    <Provider store={store}>
       <App />
     </Provider>
-   </BrowserRouter>
+  
   </React.StrictMode>
 );
